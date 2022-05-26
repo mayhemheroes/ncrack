@@ -1,0 +1,6 @@
+project: rnshah9/ncrack
+target: ncrack
+
+cmds:
+  - cmd: /repo/ncrack -iX @@
+    filepath: /test.xml
