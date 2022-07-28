@@ -2,5 +2,4 @@ project: ncrack
 target: ncrack
 
 cmds:
-  - cmd: /repo/ncrack -iX /test.xml
-    filepath: /test.xml
+  - cmd: /install/bin/ncrack -iX @@
