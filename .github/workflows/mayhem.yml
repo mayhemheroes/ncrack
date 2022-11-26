@@ -51,7 +51,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_ncrack
+          - mayhem/Mayhemfile_path_get_dirname
 
     steps:
       - uses: actions/checkout@v2
